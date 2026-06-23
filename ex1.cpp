@@ -12,12 +12,12 @@ class teacher {
 
         //setter 
     void setSalary(double s){
-        salary = s;
+        s = salary;
     }    
 
     // getter
     double getSalary(double s){
-        return
+        return s;
     }
 
     teacher( string name, string subject, double salary){

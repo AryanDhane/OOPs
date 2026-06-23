@@ -17,7 +17,7 @@ class teacher {
 
     // getter
     double getSalary(double s){
-        return s;
+        return
     }
 
     teacher( string name, string subject, double salary){
@@ -37,6 +37,6 @@ void getinfo(){
 
 int main() {
     teacher t1("aryan","english",1000);
-    t1.getinfo();
+    t1.getSalary();
     return 0;   
 }

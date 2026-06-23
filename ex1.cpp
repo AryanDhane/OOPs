@@ -7,18 +7,18 @@ class teacher {
         string name;
         string subject;
         double salary;
+
+        int getinfo(name,subject,salary){
+    return;
+}
 };
 
 int main() {
     teacher t1;
-    teacher t2;         
 
-    t1.name = "aryan";
-    t2.name = "atharv";
-
+    t1.getinfo("aryan","english",1000);
   
     cout << t1.name << endl;
-    cout << t2.name << endl;
 
 
     return 0;   

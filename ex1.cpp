@@ -14,9 +14,11 @@ int main() {
     teacher t2;         
 
     t1.name = "aryan";
+    t2.name = "atharv";
 
+  
     cout << t1.name << endl;
-
+    cout << t2.name << endl;
 
 
     return 0;   

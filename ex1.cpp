@@ -6,7 +6,19 @@ class teacher {
     public :
         string name;
         string subject;
+    private :    
         double salary;
+
+
+        //setter 
+    void setSalary(double s){
+        salary = s;
+    }    
+
+    // getter
+    double getSalary(double s){
+        return s;
+    }
 
     teacher( string name, string subject, double salary){
        this-> name = name;

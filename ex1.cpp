@@ -20,12 +20,14 @@ public:
     }
 
     double getSalary() {
-        return salary;
+        return salary;  
     }
 
     void setSalary(double s) {
         salary = s;
     }
+
+     
 
 private:
     double salary;

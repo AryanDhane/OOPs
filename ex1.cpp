@@ -37,7 +37,7 @@ int main() {
     t1.getinfo();
     t2.getinfo();
 
-    cout << "Salary = " << t1.getSalary() << endl;
+    cout << "Salary = " << t1.getSalary() << endl;  
 
     return 0;
 }   

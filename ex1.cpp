@@ -40,4 +40,4 @@ int main() {
     cout << "Salary = " << t1.getSalary() << endl;
 
     return 0;
-}
+}   

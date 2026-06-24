@@ -3,40 +3,40 @@
 using namespace std;
 
 class teacher {
-    public :
-        string name;
-        string subject;
-    private :    
-        double salary;
+public:
+    string name;
+    string subject;
 
-
-        //setter 
-    void setSalary(double s){
-        s = salary;
-    }    
-
-    // getter
-    double getSalary(double s){
-        return s;
+    teacher(string name, string subject, double salary) {
+        this->name = name;
+        this->subject = subject;
+        this->salary = salary;
     }
 
-    teacher( string name, string subject, double salary){
-       this-> name = name;
-        this-> subject = subject;
-        this-> salary = salary;
-    return;
-}
+    void getinfo() {
+        cout << "Name: " << name << endl;
+        cout << "Subject: " << subject << endl;
+        cout << "Salary: " << salary << endl;
+    }
 
-void getinfo(){
-    cout << name << endl;
-    cout << subject << endl;
-    cout << salary << endl;
+    double getSalary() {
+        return salary;
+    }
 
-}
+    void setSalary(double s) {
+        salary = s;
+    }
+
+private:
+    double salary;
 };
 
 int main() {
-    teacher t1("aryan","english",1000);
-    t1.getSalary();
-    return 0;   
+    teacher t1("aryan", "english", 1000);
+
+    t1.getinfo();
+
+    cout << "Salary = " << t1.getSalary() << endl;
+
+    return 0;
 }

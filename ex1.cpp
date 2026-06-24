@@ -33,8 +33,9 @@ private:
 
 int main() {
     teacher t1("aryan", "english", 1000);
-
+    teacher t2("kedar", "maths", 101010);
     t1.getinfo();
+    t2.getinfo();
 
     cout << "Salary = " << t1.getSalary() << endl;
 
